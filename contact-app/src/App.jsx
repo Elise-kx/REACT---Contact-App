@@ -61,8 +61,7 @@ function App() {
           style={{
             padding: '8px 12px',
             marginBottom: '1em',
-            width: '100%',
-            maxWidth: '400px',
+            width: "fit-content",
             fontSize: '1em',
             borderRadius: '5px',
             border: '1px solid #ccc'
