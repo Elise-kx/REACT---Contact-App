@@ -24,21 +24,19 @@ function App() {
   if (error == null){
     return (
       <>
-        <h2>My Contacts</h2>
-
+        <h1>My Contacts</h1>
+        <p>Total of {data.length} contacts</p>
         <table>
           <tr>
             <th>Name</th>
-            <th>Phone</th>
-            <th>Email</th>
+            <th></th>
           </tr>
           
         {          
           data && data.length>0 && data.map((item)=> 
           <tr>
             <td>{item.name}</td>
-            <td>{item.phone}</td>
-            <td>{item.email}</td>
+            <td><button class="btn"><i class="fa-solid fa-circle-info"></i></button></td>
           </tr>
         
         )
