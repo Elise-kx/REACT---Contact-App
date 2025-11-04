@@ -21,3 +21,6 @@ When you see something like this:
 		  ➜  Local:   http://localhost:5173/
 ```
 Click on the url, and it will redirect you to the application!
+
+#### Url to Deployed app
+_https://elise-react-app.netlify.app/_
